@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/ViewController2.swift"
+            timestampString = "515251930.353115"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/ViewController.swift"
+            timestampString = "515257668.593963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GalleryApp2.ViewController.__deallocating_deinit"
+                  moduleName = "GalleryApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Google%20Drive/iOS/GalleryApp2/GalleryApp2/ViewController.swift"
+                  timestampString = "515257669.172326"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GalleryApp2.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GalleryApp2.ViewController"
+                  moduleName = "GalleryApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Google%20Drive/iOS/GalleryApp2/GalleryApp2/ViewController.swift"
+                  timestampString = "515257669.173884"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GalleryApp2.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GalleryApp2.ViewController"
+                  moduleName = "GalleryApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Google%20Drive/iOS/GalleryApp2/GalleryApp2/ViewController.swift"
+                  timestampString = "515257669.175481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GalleryApp2.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GalleryApp2.ViewController&gt;"
+                  moduleName = "GalleryApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Google%20Drive/iOS/GalleryApp2/GalleryApp2/ViewController.swift"
+                  timestampString = "515257669.176866"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GalleryApp2.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GalleryApp2.ViewController&gt;"
+                  moduleName = "GalleryApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Google%20Drive/iOS/GalleryApp2/GalleryApp2/ViewController.swift"
+                  timestampString = "515257669.178296"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../GalleryApp2/GalleryApp2/ViewController.swift"
+            timestampString = "515262168.39006"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/ShoppingCartViewController.swift"
+            timestampString = "518056807.809627"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "decideOnCategory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/Album.swift"
+            timestampString = "518050366.276338"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "Album"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/Album.swift"
+            timestampString = "518051854.336423"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "Album"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicApp2.Album.albumName.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "MusicApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Downloads/MusicShop/GalleryApp2/Album.swift"
+                  timestampString = "518051854.649785"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicApp2.Album.albumName.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "MusicApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Downloads/MusicShop/GalleryApp2/Album.swift"
+                  timestampString = "518051854.65238"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicApp2.Album.init (coverName : Swift.String, category : Swift.String, albumName : Swift.String, artistName : Swift.String, price : Swift.String) -&gt; MusicApp2.Album"
+                  moduleName = "MusicApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Downloads/MusicShop/GalleryApp2/Album.swift"
+                  timestampString = "518051854.654325"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "471">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/Album.swift"
+            timestampString = "518051900.532923"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Album"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicApp2.Album.category.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "MusicApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Downloads/MusicShop/GalleryApp2/Album.swift"
+                  timestampString = "518051900.851931"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicApp2.Album.category.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "MusicApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Downloads/MusicShop/GalleryApp2/Album.swift"
+                  timestampString = "518051900.853749"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicApp2.Album.init (coverName : Swift.String, category : Swift.String, albumName : Swift.String, artistName : Swift.String, price : Swift.String) -&gt; MusicApp2.Album"
+                  moduleName = "MusicApp2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastianwaloszek/Downloads/MusicShop/GalleryApp2/Album.swift"
+                  timestampString = "518051900.855936"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "319">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/AudioPlayerViewController.swift"
+            timestampString = "518057199.015075"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "buyPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/ShoppingCartViewController.swift"
+            timestampString = "518056807.809627"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

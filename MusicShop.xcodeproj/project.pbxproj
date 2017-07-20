@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710190B91EB5E8DE004EF379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710190B81EB5E8DE004EF379 /* AppDelegate.swift */; };
+		710190BB1EB5E8DE004EF379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710190BA1EB5E8DE004EF379 /* ViewController.swift */; };
+		710190BE1EB5E8DE004EF379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710190BC1EB5E8DE004EF379 /* Main.storyboard */; };
+		710190C01EB5E8DE004EF379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710190BF1EB5E8DE004EF379 /* Assets.xcassets */; };
+		710190C31EB5E8DE004EF379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710190C11EB5E8DE004EF379 /* LaunchScreen.storyboard */; };
+		710190CB1EB61E7B004EF379 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710190CA1EB61E7B004EF379 /* MyCollectionViewController.swift */; };
+		710190CF1EB61FEB004EF379 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710190CE1EB61FEB004EF379 /* MyCollectionViewCell.swift */; };
+		710190EF1EB644DD004EF379 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710190EE1EB644DD004EF379 /* AudioPlayerViewController.swift */; };
+		711338651EDF1FD6005DDEA0 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711338641EDF1FD6005DDEA0 /* ShoppingCartViewController.swift */; };
+		71D3EF321EDF3AB800C763D3 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D3EF311EDF3AB800C763D3 /* Album.swift */; };
+		71F87A531EE0B58A00F61A87 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F87A521EE0B58A00F61A87 /* Constants.swift */; };
+		9EA69E851EBCA53C00DA1B0D /* disco_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69E811EBCA53C00DA1B0D /* disco_1.png */; };
+		9EA69E861EBCA53C00DA1B0D /* jazz_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69E821EBCA53C00DA1B0D /* jazz_1.png */; };
+		9EA69E871EBCA53C00DA1B0D /* pop_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69E831EBCA53C00DA1B0D /* pop_1.png */; };
+		9EA69E881EBCA53C00DA1B0D /* rock_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69E841EBCA53C00DA1B0D /* rock_1.png */; };
+		9EA69E8D1EBCA93300DA1B0D /* Shopping Bag-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69E8C1EBCA93300DA1B0D /* Shopping Bag-50.png */; };
+		9EA69E8F1EBCAA3B00DA1B0D /* shopping_bag_25x25.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69E8E1EBCAA3B00DA1B0D /* shopping_bag_25x25.png */; };
+		9EA69EA81EBCACC000DA1B0D /* AlbumsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA69EA71EBCACC000DA1B0D /* AlbumsCollectionViewController.swift */; };
+		9EA69EB41EBCB81600DA1B0D /* cover_adventure.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EA91EBCB81600DA1B0D /* cover_adventure.png */; };
+		9EA69EB51EBCB81600DA1B0D /* cover_artpop.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EAA1EBCB81600DA1B0D /* cover_artpop.png */; };
+		9EA69EB61EBCB81600DA1B0D /* cover_bettername.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EAB1EBCB81600DA1B0D /* cover_bettername.png */; };
+		9EA69EB71EBCB81600DA1B0D /* cover_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EAC1EBCB81600DA1B0D /* cover_blue.png */; };
+		9EA69EB81EBCB81600DA1B0D /* cover_clarity.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EAD1EBCB81600DA1B0D /* cover_clarity.png */; };
+		9EA69EB91EBCB81600DA1B0D /* cover_opus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EAE1EBCB81600DA1B0D /* cover_opus.png */; };
+		9EA69EBA1EBCB81600DA1B0D /* cover_spitfire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EAF1EBCB81600DA1B0D /* cover_spitfire.png */; };
+		9EA69EBB1EBCB81600DA1B0D /* cover_tdsotm.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EB01EBCB81600DA1B0D /* cover_tdsotm.png */; };
+		9EA69EBC1EBCB81600DA1B0D /* cover_w2016.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EB11EBCB81600DA1B0D /* cover_w2016.png */; };
+		9EA69EBD1EBCB81600DA1B0D /* cover_while.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EB21EBCB81600DA1B0D /* cover_while.png */; };
+		9EA69EBE1EBCB81600DA1B0D /* cover_worlds.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EB31EBCB81600DA1B0D /* cover_worlds.png */; };
+		9EA69EC21EBCC6AA00DA1B0D /* Add Shopping Cart Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA69EC11EBCC6AA00DA1B0D /* Add Shopping Cart Filled-50.png */; };
+		9EC50DF91F20C47000BCAC32 /* 01 Aura.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DEF1F20C47000BCAC32 /* 01 Aura.mp3 */; };
+		9EC50DFA1F20C47000BCAC32 /* 02 - Deadmau5 - For Lack Of A Better Name - Moar Ghosts N Stuff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF01F20C47000BCAC32 /* 02 - Deadmau5 - For Lack Of A Better Name - Moar Ghosts N Stuff.mp3 */; };
+		9EC50DFB1F20C47000BCAC32 /* 2-13 Pets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF11F20C47000BCAC32 /* 2-13 Pets.mp3 */; };
+		9EC50DFC1F20C47000BCAC32 /* 02. Porter Robinson - Unison (Original Mix)_[plixid.com].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF21F20C47000BCAC32 /* 02. Porter Robinson - Unison (Original Mix)_[plixid.com].mp3 */; };
+		9EC50DFD1F20C47000BCAC32 /* 03. Cat Thruster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF31F20C47000BCAC32 /* 03. Cat Thruster.mp3 */; };
+		9EC50DFE1F20C47000BCAC32 /* 05 - Zedd - Clarity (Feat. Foxes).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF41F20C47000BCAC32 /* 05 - Zedd - Clarity (Feat. Foxes).mp3 */; };
+		9EC50DFF1F20C47000BCAC32 /* 05 Pay No Mind (feat. Passion Pit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF51F20C47000BCAC32 /* 05 Pay No Mind (feat. Passion Pit).mp3 */; };
+		9EC50E001F20C47000BCAC32 /* 07. Any Colour You Like.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF61F20C47000BCAC32 /* 07. Any Colour You Like.mp3 */; };
+		9EC50E011F20C47000BCAC32 /* 10 So What 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF71F20C47000BCAC32 /* 10 So What 1.mp3 */; };
+		9EC50E021F20C47000BCAC32 /* 17-eric_prydz-liberate-098cc1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC50DF81F20C47000BCAC32 /* 17-eric_prydz-liberate-098cc1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		710190B51EB5E8DE004EF379 /* MusicShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		710190B81EB5E8DE004EF379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		710190BA1EB5E8DE004EF379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		710190BD1EB5E8DE004EF379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		710190BF1EB5E8DE004EF379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		710190C21EB5E8DE004EF379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		710190C41EB5E8DE004EF379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710190CA1EB61E7B004EF379 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		710190CE1EB61FEB004EF379 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		710190EE1EB644DD004EF379 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
+		711338641EDF1FD6005DDEA0 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		71D3EF311EDF3AB800C763D3 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		71F87A521EE0B58A00F61A87 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
+		9EA69E811EBCA53C00DA1B0D /* disco_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disco_1.png; sourceTree = "<group>"; };
+		9EA69E821EBCA53C00DA1B0D /* jazz_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jazz_1.png; sourceTree = "<group>"; };
+		9EA69E831EBCA53C00DA1B0D /* pop_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pop_1.png; sourceTree = "<group>"; };
+		9EA69E841EBCA53C00DA1B0D /* rock_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock_1.png; sourceTree = "<group>"; };
+		9EA69E8C1EBCA93300DA1B0D /* Shopping Bag-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shopping Bag-50.png"; sourceTree = "<group>"; };
+		9EA69E8E1EBCAA3B00DA1B0D /* shopping_bag_25x25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping_bag_25x25.png; sourceTree = "<group>"; };
+		9EA69EA71EBCACC000DA1B0D /* AlbumsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewController.swift; sourceTree = "<group>"; };
+		9EA69EA91EBCB81600DA1B0D /* cover_adventure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_adventure.png; sourceTree = "<group>"; };
+		9EA69EAA1EBCB81600DA1B0D /* cover_artpop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_artpop.png; sourceTree = "<group>"; };
+		9EA69EAB1EBCB81600DA1B0D /* cover_bettername.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_bettername.png; sourceTree = "<group>"; };
+		9EA69EAC1EBCB81600DA1B0D /* cover_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_blue.png; sourceTree = "<group>"; };
+		9EA69EAD1EBCB81600DA1B0D /* cover_clarity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_clarity.png; sourceTree = "<group>"; };
+		9EA69EAE1EBCB81600DA1B0D /* cover_opus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_opus.png; sourceTree = "<group>"; };
+		9EA69EAF1EBCB81600DA1B0D /* cover_spitfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_spitfire.png; sourceTree = "<group>"; };
+		9EA69EB01EBCB81600DA1B0D /* cover_tdsotm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_tdsotm.png; sourceTree = "<group>"; };
+		9EA69EB11EBCB81600DA1B0D /* cover_w2016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_w2016.png; sourceTree = "<group>"; };
+		9EA69EB21EBCB81600DA1B0D /* cover_while.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_while.png; sourceTree = "<group>"; };
+		9EA69EB31EBCB81600DA1B0D /* cover_worlds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover_worlds.png; sourceTree = "<group>"; };
+		9EA69EC11EBCC6AA00DA1B0D /* Add Shopping Cart Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add Shopping Cart Filled-50.png"; sourceTree = "<group>"; };
+		9EC50DEF1F20C47000BCAC32 /* 01 Aura.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Aura.mp3"; sourceTree = "<group>"; };
+		9EC50DF01F20C47000BCAC32 /* 02 - Deadmau5 - For Lack Of A Better Name - Moar Ghosts N Stuff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 - Deadmau5 - For Lack Of A Better Name - Moar Ghosts N Stuff.mp3"; sourceTree = "<group>"; };
+		9EC50DF11F20C47000BCAC32 /* 2-13 Pets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "2-13 Pets.mp3"; sourceTree = "<group>"; };
+		9EC50DF21F20C47000BCAC32 /* 02. Porter Robinson - Unison (Original Mix)_[plixid.com].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02. Porter Robinson - Unison (Original Mix)_[plixid.com].mp3"; sourceTree = "<group>"; };
+		9EC50DF31F20C47000BCAC32 /* 03. Cat Thruster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03. Cat Thruster.mp3"; sourceTree = "<group>"; };
+		9EC50DF41F20C47000BCAC32 /* 05 - Zedd - Clarity (Feat. Foxes).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 - Zedd - Clarity (Feat. Foxes).mp3"; sourceTree = "<group>"; };
+		9EC50DF51F20C47000BCAC32 /* 05 Pay No Mind (feat. Passion Pit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Pay No Mind (feat. Passion Pit).mp3"; sourceTree = "<group>"; };
+		9EC50DF61F20C47000BCAC32 /* 07. Any Colour You Like.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07. Any Colour You Like.mp3"; sourceTree = "<group>"; };
+		9EC50DF71F20C47000BCAC32 /* 10 So What 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 So What 1.mp3"; sourceTree = "<group>"; };
+		9EC50DF81F20C47000BCAC32 /* 17-eric_prydz-liberate-098cc1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17-eric_prydz-liberate-098cc1.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710190B21EB5E8DE004EF379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710190AC1EB5E8DE004EF379 = {
+			isa = PBXGroup;
+			children = (
+				710190B71EB5E8DE004EF379 /* MusicShop */,
+				710190B61EB5E8DE004EF379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710190B61EB5E8DE004EF379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710190B51EB5E8DE004EF379 /* MusicShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710190B71EB5E8DE004EF379 /* MusicShop */ = {
+			isa = PBXGroup;
+			children = (
+				9EA69E891EBCA8B300DA1B0D /* Icons */,
+				9EA69E801EBCA52300DA1B0D /* Categories */,
+				9E62C7B41EBBCFE5004472C7 /* Songs */,
+				710190B81EB5E8DE004EF379 /* AppDelegate.swift */,
+				9EA69E901EBCAC0B00DA1B0D /* AlbumCovers */,
+				710190BA1EB5E8DE004EF379 /* ViewController.swift */,
+				9EA69EA71EBCACC000DA1B0D /* AlbumsCollectionViewController.swift */,
+				710190BC1EB5E8DE004EF379 /* Main.storyboard */,
+				71F87A521EE0B58A00F61A87 /* Constants.swift */,
+				711338641EDF1FD6005DDEA0 /* ShoppingCartViewController.swift */,
+				710190CA1EB61E7B004EF379 /* MyCollectionViewController.swift */,
+				71D3EF311EDF3AB800C763D3 /* Album.swift */,
+				710190EE1EB644DD004EF379 /* AudioPlayerViewController.swift */,
+				710190CE1EB61FEB004EF379 /* MyCollectionViewCell.swift */,
+				710190BF1EB5E8DE004EF379 /* Assets.xcassets */,
+				710190C11EB5E8DE004EF379 /* LaunchScreen.storyboard */,
+				710190C41EB5E8DE004EF379 /* Info.plist */,
+			);
+			name = MusicShop;
+			path = GalleryApp2;
+			sourceTree = "<group>";
+		};
+		9E62C7B41EBBCFE5004472C7 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				9EC50DEF1F20C47000BCAC32 /* 01 Aura.mp3 */,
+				9EC50DF01F20C47000BCAC32 /* 02 - Deadmau5 - For Lack Of A Better Name - Moar Ghosts N Stuff.mp3 */,
+				9EC50DF11F20C47000BCAC32 /* 2-13 Pets.mp3 */,
+				9EC50DF21F20C47000BCAC32 /* 02. Porter Robinson - Unison (Original Mix)_[plixid.com].mp3 */,
+				9EC50DF31F20C47000BCAC32 /* 03. Cat Thruster.mp3 */,
+				9EC50DF41F20C47000BCAC32 /* 05 - Zedd - Clarity (Feat. Foxes).mp3 */,
+				9EC50DF51F20C47000BCAC32 /* 05 Pay No Mind (feat. Passion Pit).mp3 */,
+				9EC50DF61F20C47000BCAC32 /* 07. Any Colour You Like.mp3 */,
+				9EC50DF71F20C47000BCAC32 /* 10 So What 1.mp3 */,
+				9EC50DF81F20C47000BCAC32 /* 17-eric_prydz-liberate-098cc1.mp3 */,
+			);
+			name = Songs;
+			sourceTree = "<group>";
+		};
+		9EA69E801EBCA52300DA1B0D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9EA69E811EBCA53C00DA1B0D /* disco_1.png */,
+				9EA69E821EBCA53C00DA1B0D /* jazz_1.png */,
+				9EA69E831EBCA53C00DA1B0D /* pop_1.png */,
+				9EA69E841EBCA53C00DA1B0D /* rock_1.png */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		9EA69E891EBCA8B300DA1B0D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9EA69EC11EBCC6AA00DA1B0D /* Add Shopping Cart Filled-50.png */,
+				9EA69E8C1EBCA93300DA1B0D /* Shopping Bag-50.png */,
+				9EA69E8E1EBCAA3B00DA1B0D /* shopping_bag_25x25.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		9EA69E901EBCAC0B00DA1B0D /* AlbumCovers */ = {
+			isa = PBXGroup;
+			children = (
+				9EA69EA91EBCB81600DA1B0D /* cover_adventure.png */,
+				9EA69EAA1EBCB81600DA1B0D /* cover_artpop.png */,
+				9EA69EAB1EBCB81600DA1B0D /* cover_bettername.png */,
+				9EA69EAC1EBCB81600DA1B0D /* cover_blue.png */,
+				9EA69EAD1EBCB81600DA1B0D /* cover_clarity.png */,
+				9EA69EAE1EBCB81600DA1B0D /* cover_opus.png */,
+				9EA69EAF1EBCB81600DA1B0D /* cover_spitfire.png */,
+				9EA69EB01EBCB81600DA1B0D /* cover_tdsotm.png */,
+				9EA69EB11EBCB81600DA1B0D /* cover_w2016.png */,
+				9EA69EB21EBCB81600DA1B0D /* cover_while.png */,
+				9EA69EB31EBCB81600DA1B0D /* cover_worlds.png */,
+			);
+			name = AlbumCovers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710190B41EB5E8DE004EF379 /* MusicShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710190C71EB5E8DE004EF379 /* Build configuration list for PBXNativeTarget "MusicShop" */;
+			buildPhases = (
+				710190B11EB5E8DE004EF379 /* Sources */,
+				710190B21EB5E8DE004EF379 /* Frameworks */,
+				710190B31EB5E8DE004EF379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicShop;
+			productName = GalleryApp2;
+			productReference = 710190B51EB5E8DE004EF379 /* MusicShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710190AD1EB5E8DE004EF379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sebastian Waloszek";
+				TargetAttributes = {
+					710190B41EB5E8DE004EF379 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 710190B01EB5E8DE004EF379 /* Build configuration list for PBXProject "MusicShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 710190AC1EB5E8DE004EF379;
+			productRefGroup = 710190B61EB5E8DE004EF379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710190B41EB5E8DE004EF379 /* MusicShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710190B31EB5E8DE004EF379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA69EB71EBCB81600DA1B0D /* cover_blue.png in Resources */,
+				9EA69EB91EBCB81600DA1B0D /* cover_opus.png in Resources */,
+				9EA69E851EBCA53C00DA1B0D /* disco_1.png in Resources */,
+				710190C31EB5E8DE004EF379 /* LaunchScreen.storyboard in Resources */,
+				9EC50DFC1F20C47000BCAC32 /* 02. Porter Robinson - Unison (Original Mix)_[plixid.com].mp3 in Resources */,
+				9EA69EBC1EBCB81600DA1B0D /* cover_w2016.png in Resources */,
+				9EC50DF91F20C47000BCAC32 /* 01 Aura.mp3 in Resources */,
+				9EA69EB51EBCB81600DA1B0D /* cover_artpop.png in Resources */,
+				9EA69EBD1EBCB81600DA1B0D /* cover_while.png in Resources */,
+				9EA69E871EBCA53C00DA1B0D /* pop_1.png in Resources */,
+				9EC50E011F20C47000BCAC32 /* 10 So What 1.mp3 in Resources */,
+				9EA69EB61EBCB81600DA1B0D /* cover_bettername.png in Resources */,
+				9EC50E021F20C47000BCAC32 /* 17-eric_prydz-liberate-098cc1.mp3 in Resources */,
+				9EA69E8D1EBCA93300DA1B0D /* Shopping Bag-50.png in Resources */,
+				710190C01EB5E8DE004EF379 /* Assets.xcassets in Resources */,
+				9EA69EBA1EBCB81600DA1B0D /* cover_spitfire.png in Resources */,
+				9EA69EBE1EBCB81600DA1B0D /* cover_worlds.png in Resources */,
+				9EA69E8F1EBCAA3B00DA1B0D /* shopping_bag_25x25.png in Resources */,
+				9EC50DFE1F20C47000BCAC32 /* 05 - Zedd - Clarity (Feat. Foxes).mp3 in Resources */,
+				9EA69E881EBCA53C00DA1B0D /* rock_1.png in Resources */,
+				9EA69EC21EBCC6AA00DA1B0D /* Add Shopping Cart Filled-50.png in Resources */,
+				9EC50E001F20C47000BCAC32 /* 07. Any Colour You Like.mp3 in Resources */,
+				9EA69EB81EBCB81600DA1B0D /* cover_clarity.png in Resources */,
+				9EC50DFB1F20C47000BCAC32 /* 2-13 Pets.mp3 in Resources */,
+				9EC50DFD1F20C47000BCAC32 /* 03. Cat Thruster.mp3 in Resources */,
+				9EA69E861EBCA53C00DA1B0D /* jazz_1.png in Resources */,
+				9EA69EBB1EBCB81600DA1B0D /* cover_tdsotm.png in Resources */,
+				9EA69EB41EBCB81600DA1B0D /* cover_adventure.png in Resources */,
+				9EC50DFF1F20C47000BCAC32 /* 05 Pay No Mind (feat. Passion Pit).mp3 in Resources */,
+				9EC50DFA1F20C47000BCAC32 /* 02 - Deadmau5 - For Lack Of A Better Name - Moar Ghosts N Stuff.mp3 in Resources */,
+				710190BE1EB5E8DE004EF379 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710190B11EB5E8DE004EF379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710190BB1EB5E8DE004EF379 /* ViewController.swift in Sources */,
+				711338651EDF1FD6005DDEA0 /* ShoppingCartViewController.swift in Sources */,
+				710190B91EB5E8DE004EF379 /* AppDelegate.swift in Sources */,
+				9EA69EA81EBCACC000DA1B0D /* AlbumsCollectionViewController.swift in Sources */,
+				710190EF1EB644DD004EF379 /* AudioPlayerViewController.swift in Sources */,
+				710190CF1EB61FEB004EF379 /* MyCollectionViewCell.swift in Sources */,
+				710190CB1EB61E7B004EF379 /* MyCollectionViewController.swift in Sources */,
+				71D3EF321EDF3AB800C763D3 /* Album.swift in Sources */,
+				71F87A531EE0B58A00F61A87 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		710190BC1EB5E8DE004EF379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710190BD1EB5E8DE004EF379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710190C11EB5E8DE004EF379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710190C21EB5E8DE004EF379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710190C51EB5E8DE004EF379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		710190C61EB5E8DE004EF379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710190C81EB5E8DE004EF379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GalleryApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianwaloszek.MusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		710190C91EB5E8DE004EF379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GalleryApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastianwaloszek.MusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710190B01EB5E8DE004EF379 /* Build configuration list for PBXProject "MusicShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710190C51EB5E8DE004EF379 /* Debug */,
+				710190C61EB5E8DE004EF379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710190C71EB5E8DE004EF379 /* Build configuration list for PBXNativeTarget "MusicShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710190C81EB5E8DE004EF379 /* Debug */,
+				710190C91EB5E8DE004EF379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710190AD1EB5E8DE004EF379 /* Project object */;
+}
