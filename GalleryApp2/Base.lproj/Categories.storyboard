@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14092" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dtu-Ta-GK3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14081.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Categories CollectionVC-->
+        <scene sceneID="C8E-hW-i02">
+            <objects>
+                <viewController id="EcX-sh-k5o" customClass="CategoriesCollectionVC" customModule="MusicShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kFN-cD-Ew2"/>
+                        <viewControllerLayoutGuide type="bottom" id="2xp-De-MFD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SKY-3S-duw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="npv-Hv-EJo">
+                                <rect key="frame" x="16" y="130" width="343" height="537"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="537" id="ibv-8c-uQw"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rDY-Zv-6di">
+                                    <size key="itemSize" width="150" height="150"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCell" id="JLI-tR-k5g" customClass="CategoryViewCell" customModule="MusicShop" customModuleProvider="target">
+                                        <rect key="frame" x="71.5" y="0.0" width="200" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gl4-BZ-Wv8">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="Gl4-BZ-Wv8" firstAttribute="leading" secondItem="JLI-tR-k5g" secondAttribute="leading" id="Axt-85-KJU"/>
+                                            <constraint firstAttribute="bottom" secondItem="Gl4-BZ-Wv8" secondAttribute="bottom" id="CkU-Bw-74e"/>
+                                            <constraint firstItem="Gl4-BZ-Wv8" firstAttribute="top" secondItem="JLI-tR-k5g" secondAttribute="top" id="ETY-UW-8k9"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gl4-BZ-Wv8" secondAttribute="trailing" id="yWq-7r-yfG"/>
+                                        </constraints>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                        <size key="customSize" width="200" height="200"/>
+                                        <connections>
+                                            <outlet property="categoryImage" destination="Gl4-BZ-Wv8" id="Diu-ZF-Yaf"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="EcX-sh-k5o" id="cPy-kD-6W9"/>
+                                    <outlet property="delegate" destination="EcX-sh-k5o" id="OKM-vt-M3M"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="npv-Hv-EJo" firstAttribute="trailing" secondItem="SKY-3S-duw" secondAttribute="trailingMargin" id="Gme-Mn-K8Z"/>
+                            <constraint firstItem="npv-Hv-EJo" firstAttribute="leading" secondItem="SKY-3S-duw" secondAttribute="leadingMargin" id="uyq-DY-Gwg"/>
+                            <constraint firstItem="npv-Hv-EJo" firstAttribute="bottom" secondItem="2xp-De-MFD" secondAttribute="top" id="vzg-Fz-FJo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="EkJ-U2-iNc">
+                        <rightBarButtonItems>
+                            <barButtonItem image="shopping_bag_25x25.png" id="F9f-Ca-R35">
+                                <inset key="imageInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <segue destination="Qha-x4-2zw" kind="show" id="nls-Cz-trs"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="$ 0.00" id="itG-fe-uKm"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="totalPriceLabel" destination="itG-fe-uKm" id="XvI-Si-q7M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eXV-aB-1eb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-334" y="1280"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xd6-Qd-od5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dtu-Ta-GK3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l0E-Pp-4n3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EcX-sh-k5o" kind="relationship" relationship="rootViewController" id="nYT-IX-Xmm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="STj-J6-HKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1038" y="1280"/>
+        </scene>
+        <!--cartVC-->
+        <scene sceneID="1Wq-B9-gf6">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="cartVC" storyboardName="ShoppingCart" referencedIdentifier="cartVC" id="Qha-x4-2zw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mRq-ij-GFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="1279"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shopping_bag_25x25.png" width="25" height="25"/>
+    </resources>
+</document>

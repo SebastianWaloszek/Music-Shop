@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14092" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14081.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Albums CollectionVC-->
+        <scene sceneID="dhE-Vy-V8U">
+            <objects>
+                <viewController storyboardIdentifier="detailVC" id="qqm-k5-FsP" customClass="AlbumsCollectionVC" customModule="MusicShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l5m-kj-Cic"/>
+                        <viewControllerLayoutGuide type="bottom" id="qLI-pJ-IUh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U9T-DD-vBY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3IH-td-E4g">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TPJ-je-bxR">
+                                    <size key="itemSize" width="300" height="150"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="albumCell" id="YTd-5a-eiE" customClass="AlbumViewCell" customModule="MusicShop" customModuleProvider="target">
+                                        <rect key="frame" x="21.5" y="0.0" width="300" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wvW-f7-CUX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTK-dD-RXg" userLabel="Album name">
+                                                    <rect key="frame" x="158" y="33" width="134" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="134" id="PT5-nr-bDh"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdd-WR-GeY">
+                                                    <rect key="frame" x="158" y="52" width="142" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXf-PF-fMp">
+                                                    <rect key="frame" x="158" y="90" width="134" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="CTK-dD-RXg" firstAttribute="trailing" secondItem="kXf-PF-fMp" secondAttribute="trailing" id="0Rp-7G-PV7"/>
+                                            <constraint firstItem="CTK-dD-RXg" firstAttribute="top" secondItem="YTd-5a-eiE" secondAttribute="topMargin" constant="25" id="1hc-pE-xe2"/>
+                                            <constraint firstItem="wvW-f7-CUX" firstAttribute="leading" secondItem="YTd-5a-eiE" secondAttribute="leading" id="5qK-O3-SwP"/>
+                                            <constraint firstItem="Cdd-WR-GeY" firstAttribute="top" secondItem="YTd-5a-eiE" secondAttribute="topMargin" constant="44" id="BVe-P3-k7X"/>
+                                            <constraint firstAttribute="bottom" secondItem="wvW-f7-CUX" secondAttribute="bottom" id="CNZ-2d-KBi"/>
+                                            <constraint firstItem="wvW-f7-CUX" firstAttribute="top" secondItem="YTd-5a-eiE" secondAttribute="top" id="LJI-n8-7KE"/>
+                                            <constraint firstItem="kXf-PF-fMp" firstAttribute="top" secondItem="CTK-dD-RXg" secondAttribute="bottom" constant="36" id="LU5-WL-fdQ"/>
+                                            <constraint firstItem="CTK-dD-RXg" firstAttribute="trailing" secondItem="YTd-5a-eiE" secondAttribute="trailingMargin" id="Xg4-mK-yYF"/>
+                                            <constraint firstItem="CTK-dD-RXg" firstAttribute="leading" secondItem="wvW-f7-CUX" secondAttribute="trailing" constant="8" symbolic="YES" id="XkQ-RR-efW"/>
+                                            <constraint firstItem="Cdd-WR-GeY" firstAttribute="leading" secondItem="kXf-PF-fMp" secondAttribute="leading" id="fjz-zo-wIV"/>
+                                            <constraint firstItem="kXf-PF-fMp" firstAttribute="top" secondItem="Cdd-WR-GeY" secondAttribute="bottom" constant="17" id="rZp-zQ-2w6"/>
+                                            <constraint firstItem="CTK-dD-RXg" firstAttribute="leading" secondItem="Cdd-WR-GeY" secondAttribute="leading" id="uvV-a8-ELo"/>
+                                            <constraint firstAttribute="trailing" secondItem="Cdd-WR-GeY" secondAttribute="trailing" id="xs8-cj-nZs"/>
+                                        </constraints>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                        <size key="customSize" width="300" height="150"/>
+                                        <connections>
+                                            <outlet property="albumCover" destination="wvW-f7-CUX" id="ZtF-wv-P7t"/>
+                                            <outlet property="albumName" destination="CTK-dD-RXg" id="K7B-xu-brB"/>
+                                            <outlet property="artistName" destination="Cdd-WR-GeY" id="OGd-JW-jYo"/>
+                                            <outlet property="price" destination="kXf-PF-fMp" id="h2Z-Vj-Gke"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="qqm-k5-FsP" id="tDC-8Y-OcC"/>
+                                    <outlet property="delegate" destination="qqm-k5-FsP" id="Poa-AC-Rao"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3IH-td-E4g" firstAttribute="leading" secondItem="U9T-DD-vBY" secondAttribute="leadingMargin" id="2kl-hr-rqa"/>
+                            <constraint firstItem="3IH-td-E4g" firstAttribute="top" secondItem="U9T-DD-vBY" secondAttribute="top" id="Ebk-Pz-JzV"/>
+                            <constraint firstItem="3IH-td-E4g" firstAttribute="trailing" secondItem="U9T-DD-vBY" secondAttribute="trailingMargin" id="Rlh-j2-jnz"/>
+                            <constraint firstItem="3IH-td-E4g" firstAttribute="bottom" secondItem="qLI-pJ-IUh" secondAttribute="top" id="YuD-oJ-rWl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ISf-qt-UVF">
+                        <rightBarButtonItems>
+                            <barButtonItem image="shopping_bag_25x25.png" id="GxS-kN-pDD">
+                                <inset key="imageInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <segue destination="Qha-x4-2zw" kind="show" id="NSF-Ot-akq"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="$ 0.00" id="yTy-dw-j8A"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="totalPriceLabel" destination="yTy-dw-j8A" id="904-zV-LVc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asq-mr-ZeA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="561"/>
+        </scene>
+        <!--cartVC-->
+        <scene sceneID="1Wq-B9-gf6">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="cartVC" storyboardName="ShoppingCart" referencedIdentifier="cartVC" id="Qha-x4-2zw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mRq-ij-GFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="829" y="560"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shopping_bag_25x25.png" width="25" height="25"/>
+    </resources>
+</document>
