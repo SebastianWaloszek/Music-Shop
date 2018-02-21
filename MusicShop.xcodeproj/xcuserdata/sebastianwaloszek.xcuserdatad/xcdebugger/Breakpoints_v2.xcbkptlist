@@ -26,11 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GalleryApp2/ViewController.swift"
-            timestampString = "515257668.593963"
+            timestampString = "540857664.832113"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "4"
-            endingLineNumber = "4">
+            endingLineNumber = "4"
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -133,29 +135,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GalleryApp2/ShoppingCartViewController.swift"
-            timestampString = "518056807.809627"
+            timestampString = "540857916.892862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
-            landmarkName = "decideOnCategory()"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GalleryApp2/Album.swift"
-            timestampString = "518050366.276338"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "Album"
-            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -165,11 +151,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GalleryApp2/Album.swift"
-            timestampString = "518051854.336423"
+            timestampString = "540942691.715124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(cover:category:name:artistName:price:songName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/Album.swift"
+            timestampString = "540942691.71517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "Album"
             landmarkType = "3">
             <Locations>
@@ -228,11 +230,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GalleryApp2/Album.swift"
-            timestampString = "518051900.532923"
+            timestampString = "540942691.715204"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "Album"
             landmarkType = "3">
             <Locations>
@@ -296,8 +298,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
             endingLineNumber = "66"
-            landmarkName = "buyPressed(_:)"
-            landmarkType = "7">
+            landmarkName = "AudioPlayerViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -307,12 +309,26 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GalleryApp2/ShoppingCartViewController.swift"
-            timestampString = "518056807.809627"
+            timestampString = "540857916.893021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
-            landmarkName = "collectionView(_:cellForItemAt:)"
+            startingLineNumber = "170"
+            endingLineNumber = "170">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryApp2/AlbumsCollectionVC.swift"
+            timestampString = "540944566.133891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadTotalPrice()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
